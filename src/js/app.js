@@ -1,2 +1,2 @@
 import '../scss/style.scss';
-console.log('test');
+import './component/heading/index.js';
