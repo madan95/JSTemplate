@@ -1,3 +1,3 @@
-import '../scss/style.scss';
-import './component/heading/index.js';
+import "../scss/style.scss";
+import "./component/heading/index.js";
 console.log("test");

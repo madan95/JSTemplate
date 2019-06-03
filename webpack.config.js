@@ -33,9 +33,9 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env','@babel/react'] //Babel to convert ES6 to ES5
-          },
-        },
+            presets: ["@babel/preset-env", "@babel/react"] //Babel to convert ES6 to ES5
+          }
+        }
       },
       {
         test: /\.(css|scss)$/,
