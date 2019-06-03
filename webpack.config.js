@@ -2,7 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: ["@babel/polyfill", path.join(__dirname, "src", "index.js")], //Entry point of module and add pollyfill before
+  //entry: ["@babel/polyfill", path.join(__dirname, "src", "index.js")], //Entry point of module and add pollyfill before
+  entry: [path.join(__dirname, "src", "index.js")], //Entry point of module
   output: {
     //Where to emit the bundle/static
     path: path.join(__dirname, "build"),
