@@ -16,6 +16,7 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
@@ -28,7 +29,9 @@
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.5.1",
     "@babel/polyfill": "^7.4.4",
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "repository": {
     "type": "git",
@@ -37,5 +40,5 @@
   "bugs": {
     "url": "https://github.com/madan95/JSTemplate/issues"
   },
-  "homepage": "https://github.com/madan95/JSTemplate#readme"
+  "homepage": "https://github.com/madan95/JSTemplate#readme",
 }
